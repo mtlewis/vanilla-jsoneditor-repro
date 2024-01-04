@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-jsoneditor-repro",
+  "version": "0.0.0-development",
+  "private": true,
+  "bundled": true,
+  "backstage": {
+    "role": "frontend"
+  },
+  "scripts": {
+    "start": "backstage-cli package start",
+    "build": "backstage-cli package build"
+  },
+  "dependencies": {
+    "@backstage/core-app-api": "^1.11.2",
+    "vanilla-jsoneditor": "0.20.0"
+  },
+  "devDependencies": {
+    "@backstage/cli": "^0.25.0"
+  }
+}
